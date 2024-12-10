@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 80e4491a-268c-4331-a8e2-effe63a3d816
+      url: 'https://chambulilo.quarto.pub/welcome-to-quarto'

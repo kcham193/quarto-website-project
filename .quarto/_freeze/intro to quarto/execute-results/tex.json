@@ -1,0 +1,21 @@
+{
+  "hash": "a66162c54c1638b7f7dfaf9dc386d860",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"GETTING STARTED WITH QUARTO\"\nauthor: \"Kasim Chambulilo\"\nformat: \n  html: default\n  pdf: default\neditor: visual\nexecute: \n  echo: false\n---\n\n\n\n\n\n\n\n\n# Introduction\n\n## Data {.smaller}\n\nFor this analysis we'll use the penguins data set from the [palmerpenguins](https://gist.github.com/slopp/ce3b90b9168f2f921784de84fa445651) data set\n\n\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n\n```\n-- Attaching core tidyverse packages ------------------------ tidyverse 2.0.0 --\nv dplyr     1.1.4     v readr     2.1.5\nv forcats   1.0.0     v stringr   1.5.1\nv ggplot2   3.5.1     v tibble    3.2.1\nv lubridate 1.9.3     v tidyr     1.3.1\nv purrr     1.0.2     \n-- Conflicts ------------------------------------------ tidyverse_conflicts() --\nx dplyr::filter() masks stats::filter()\nx dplyr::lag()    masks stats::lag()\ni Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors\n```\n\n\n:::\n:::\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\nRows: 344\nColumns: 8\n$ species           <fct> Adelie, Adelie, Adelie, Adelie, Adelie, Adelie, Adel~\n$ island            <fct> Torgersen, Torgersen, Torgersen, Torgersen, Torgerse~\n$ bill_length_mm    <dbl> 39.1, 39.5, 40.3, NA, 36.7, 39.3, 38.9, 39.2, 34.1, ~\n$ bill_depth_mm     <dbl> 18.7, 17.4, 18.0, NA, 19.3, 20.6, 17.8, 19.6, 18.1, ~\n$ flipper_length_mm <int> 181, 186, 195, NA, 193, 190, 181, 195, 193, 190, 186~\n$ body_mass_g       <int> 3750, 3800, 3250, NA, 3450, 3650, 3625, 4675, 3475, ~\n$ sex               <fct> male, female, female, NA, female, male, female, male~\n$ year              <int> 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007, 2007~\n```\n\n\n:::\n:::\n\n\n\n\n\n\n\n\n**Species**\n\nThe figure below is a scatter plot of species of penguins.\n\n\n\n\n\n\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stderr}\n\n```\nWarning: Removed 2 rows containing missing values or values outside the scale range\n(`geom_point()`).\n```\n\n\n:::\n\n::: {.cell-output-display}\n![A scatter plot of penguins' bill depth and length, colored by species of penguins. There is a relatively strong, linear association.](intro-to-quarto_files/figure-pdf/fig-bill-dims-species-1.pdf){#fig-bill-dims-species fig-alt='A scatter plot of penguins\\' bill depth and length, colored by species of penguins. There is a relatively strong, linear association.'}\n:::\n:::\n\n\n\n\n\n\n\n\n**Penguins**\n\n@tbl-penguins-top10 shows the first 10 penguins from the dataset\n\n\n\n\n\n\n\n\n::: {#tbl-penguins-top10 .cell tbl-cap='First 10 penguins.'}\n::: {.cell-output-display}\n\\begin{table}\n\\fontsize{12.0pt}{14.4pt}\\selectfont\n\\begin{tabular*}{\\linewidth}{@{\\extracolsep{\\fill}}ccrr}\n\\toprule\nspecies & island & bill\\_length\\_mm & bill\\_depth\\_mm \\\\ \n\\midrule\\addlinespace[2.5pt]\nAdelie & Torgersen & 39.1 & 18.7 \\\\ \nAdelie & Torgersen & 39.5 & 17.4 \\\\ \nAdelie & Torgersen & 40.3 & 18.0 \\\\ \nAdelie & Torgersen & NA & NA \\\\ \nAdelie & Torgersen & 36.7 & 19.3 \\\\ \nAdelie & Torgersen & 39.3 & 20.6 \\\\ \nAdelie & Torgersen & 38.9 & 17.8 \\\\ \nAdelie & Torgersen & 39.2 & 19.6 \\\\ \nAdelie & Torgersen & 34.1 & 18.1 \\\\ \nAdelie & Torgersen & 42.0 & 20.2 \\\\ \n\\bottomrule\n\\end{tabular*}\n\\end{table}\n\n:::\n:::\n",
+    "supporting": [
+      "intro-to-quarto_files\\figure-pdf"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "\\usepackage{booktabs}\n\\usepackage{caption}\n\\usepackage{longtable}\n\\usepackage{colortbl}\n\\usepackage{array}\n\\usepackage{anyfontsize}\n\\usepackage{multirow}\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

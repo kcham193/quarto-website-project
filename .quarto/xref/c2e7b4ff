@@ -1,0 +1,1 @@
+{"entries":[{"key":"tbl-penguins-top10","caption":"First 10 penguins.","order":{"section":[1,1,0,0,0,0,0],"number":1}},{"key":"fig-bill-dims-species","caption":"A scatter plot of penguins’ bill depth and length, colored by species of penguins. There is a relatively strong, linear association.","order":{"section":[1,1,0,0,0,0,0],"number":1}}],"headings":["introduction","data"]}

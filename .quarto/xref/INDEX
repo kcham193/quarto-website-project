@@ -1,0 +1,12 @@
+{
+  "about.qmd": {
+    "about.html": "714c8e6d"
+  },
+  "cc.qmd": {
+    "cc.docx": "19d9d03e"
+  },
+  "intro to quarto.qmd": {
+    "intro to quarto.html": "b5fd0f8a",
+    "intro-to-quarto.tex": "c2e7b4ff"
+  }
+}
